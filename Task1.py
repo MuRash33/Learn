@@ -1,6 +1,6 @@
 def get_summ(one, two, delimiter = '&'):
-    one = str(one)
-    two = str(two)
+    one = str(one).upper()
+    two = str(two).upper()
 
     result = one + delimiter + two
     print(result)
